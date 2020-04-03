@@ -48,6 +48,7 @@ Install-FromChocolatey 'microsoft-edge'
 Install-FromChocolatey 'googlechrome'
 Install-FromChocolatey 'postman'
 Install-FromChocolatey 'beyondcompare'
+Install-FromChocolatey 'sourcetree'
 Install-FromChocolatey 'sql-server-management-studio'
 
 Install-PowerShellModule 'Posh-Git' { Add-PoshGitToProfile -AllHosts }
