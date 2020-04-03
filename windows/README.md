@@ -3,6 +3,7 @@ This is for setting up a Windows environment.
 Script installs:
 - git
 - posh git
+- sourcetree
 - vscode
 - dotnetcore dsk
 - windows terminal
