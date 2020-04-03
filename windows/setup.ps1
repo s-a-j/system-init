@@ -39,19 +39,16 @@ function Install-PowerShellModule {
 Install-Chocolatey
 
 Install-FromChocolatey 'git'
-Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/aaronpowell/system-init/master/common/.gitconfig' -OutFile (Join-Path $env:USERPROFILE '.gitconfig')
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/s-a-j/system-init/master/common/.gitconfig' -OutFile (Join-Path $env:USERPROFILE '.gitconfig')
 
-Install-FromChocolatey 'vscode-insiders'
+Install-FromChocolatey 'vscode'
 Install-FromChocolatey 'dotnetcore-sdk'
 Install-FromChocolatey 'microsoft-windows-terminal'
-Install-FromChocolatey 'fiddler'
-Install-FromChocolatey 'postman'
-Install-FromChocolatey 'linqpad'
-Install-FromChocolatey 'firefox'
+Install-FromChocolatey 'microsoft-edge'
 Install-FromChocolatey 'googlechrome'
+Install-FromChocolatey 'postman'
+Install-FromChocolatey 'beyondcompare'
+Install-FromChocolatey 'sql-server-management-studio'
 
 Install-PowerShellModule 'Posh-Git' { Add-PoshGitToProfile -AllHosts }
-Install-PowerShellModule 'nvm' {
-    Install-NodeVersion latest
-    Set-NodeVersion -Persist User latest
 }

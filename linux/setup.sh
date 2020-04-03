@@ -92,7 +92,7 @@ install_shell() {
 install_dotfiles() {
     echo -e '\e[0;33mSetting up standard dotfiles\e[0m'
 
-    git clone https://github.com/aaronpowell/system-init ~/code/github/system-init
+    git clone https://github.com/s-a-j/system-init ~/code/github/system-init
 
     ln -s ~/code/github/system-init/linux/.zshrc ~/.zshrc
     ln -s ~/code/github/system-init/linux/.tmux.conf ~/.tmux/.tmux.conf
@@ -131,7 +131,7 @@ install_git() {
     sudo add-apt-repository ppa:git-core/ppa --yes
     sudo apt update
     sudo apt install git -y
-    wget https://raw.githubusercontent.com/aaronpowell/system-init/master/common/.gitconfig --output-document ~/.gitconfig
+    wget https://raw.githubusercontent.com/s-a-j/system-init/master/common/.gitconfig --output-document ~/.gitconfig
     git config --global core.autocrlf false
     git config --global credential.helper '/mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe'
 }

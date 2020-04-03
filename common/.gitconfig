@@ -1,7 +1,3 @@
-[user]
-    name = Aaron Powell
-    email = me@aaron-powell.com
-
 [alias]
     gl = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     unstage = reset HEAD $1
