@@ -5,7 +5,7 @@ Script installs:
 - posh git
 - sourcetree
 - vscode
-- dotnetcore dsk
+- dotnetcore sdk
 - windows terminal
 - edge
 - chrome
