@@ -52,4 +52,3 @@ Install-FromChocolatey 'sourcetree'
 Install-FromChocolatey 'sql-server-management-studio'
 
 Install-PowerShellModule 'Posh-Git' { Add-PoshGitToProfile -AllHosts }
-}
