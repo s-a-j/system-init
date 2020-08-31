@@ -12,6 +12,7 @@ Script installs:
 - postman
 - beyondcompare
 - sql server mgmt  
+- mobaxterm
 
 Run with:
 
