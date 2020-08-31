@@ -50,5 +50,6 @@ Install-FromChocolatey 'postman'
 Install-FromChocolatey 'beyondcompare'
 Install-FromChocolatey 'sourcetree'
 Install-FromChocolatey 'sql-server-management-studio'
+Install-FromChocolatey 'mobaxterm'
 
 Install-PowerShellModule 'Posh-Git' { Add-PoshGitToProfile -AllHosts }
